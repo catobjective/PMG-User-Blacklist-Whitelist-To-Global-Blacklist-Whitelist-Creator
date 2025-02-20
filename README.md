@@ -1,6 +1,6 @@
 # PMG-User-Blacklist-Whitelist-To-Global-Blacklist-Whitelist-Creator
 
-It's just moved addresses from users blacklists/whitelists to WHO object. Blocked for one user is now blocket for whole server!
+It's just moving addresses from users blacklists/whitelists to WHO object. Blocked for one user is now blocket for whole server!
 
 Simple bash scripts to merge all entries from all user blacklists/whitelists and supply them to the global "Who" object blacklist/whitelist.
 
