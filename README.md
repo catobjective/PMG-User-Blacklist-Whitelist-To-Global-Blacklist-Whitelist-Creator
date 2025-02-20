@@ -1,5 +1,7 @@
 # PMG-User-Blacklist-Whitelist-To-Global-Blacklist-Whitelist-Creator
 
+It's just moved addresses from users blacklists/whitelists to WHO object. Blocked for one user is now blocket for whole server!
+
 Simple bash scripts to merge all entries from all user blacklists/whitelists and supply them to the global "Who" object blacklist/whitelist.
 
 This allows entries in individual users' lists to protect all users of the server.
@@ -17,7 +19,9 @@ Based on the fact that entries on the above-mentioned lists can be used to block
 1. Incoming mail is recognized as spam. Mail is delivered to Spam Quarantine.  
 2. The administrator reviews the list of quarantined emails. Based on their own assessment, the administrator clicks the Whitelist/Blacklist button.  
 3. The sender's address is added to the recipient's (user's) whitelist/blacklist.  
-4. Only this specific recipient (user) is affected by this whitelist/blacklist entry.  
+4. Only this specific recipient (user) is affected by this whitelist/blacklist entry.
+5. After running script address record is supplied to Autoblacklist WHO object.
+6. Action can be created to block emails incoming from addresses listed on Autoblacklist. 
 
 ## Deployment
 
