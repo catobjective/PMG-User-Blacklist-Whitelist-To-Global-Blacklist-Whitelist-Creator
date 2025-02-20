@@ -1,5 +1,4 @@
 #! /bin/bash
-rm ./blacklist.txt
 ogroup_id="$(pmgsh get /config/ruledb/who | jq '.[] | select(.name=="AutoBlacklist")  | .id')"
 if [ -z "${ogroup_id}" ]; then
     echo "ogroup_id cannot be found"
